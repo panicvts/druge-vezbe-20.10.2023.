@@ -1,0 +1,91 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    background-color: black;
+}
+
+.nav-item{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.nav-item a:hover {
+    background-color: #FCA311;
+    transition: 0.5s ease;
+}
+
+div{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 15px;
+    width: 400px;
+}
+
+.div-prvi{
+    background-color: #2A9D8F;
+}
+
+.div-prvi h3{
+    text-transform: uppercase;
+}
+
+.div-prvi p{
+    font-weight: bold;
+}
+
+.div-drugi {
+    background-color: #FCA311;
+}
+
+.div-drugi h3{
+    border-bottom: 5px dotted;
+    width: 120px;
+    text-align: right;
+}
+
+.div-drugi p{
+    text-align: right;
+}
+
+.div-treci{
+    text-align: justify;
+    background-color: #EF233C;
+}
+
+.div-treci h3{
+    text-align: center;
+    font-style: italic;
+    background-color: white;
+    width: 125px;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.div-cetvrti{
+    background-color: #F1C0E8;
+}
+
+.div-cetvrti p{
+    text-align: center;
+    font-weight: 100;
+}
